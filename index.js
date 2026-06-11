@@ -89,4 +89,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 // Recuerda poner tu Token real aquí abajo
-client.login('client.login(process.env.DISCORD_TOKEN);');
+client.login(process.env.DISCORD_TOKEN);
